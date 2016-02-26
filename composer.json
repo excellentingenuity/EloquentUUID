@@ -1,5 +1,5 @@
 {
-  "name": "eig/eloquentuuid",
+  "name": "eig/eloquent-uuid",
   "description": "Easy UUID for Eloquent Models",
   "license": "MIT",
   "keywords": ["uuid", "eloquent", "ORM", "laravel"],
