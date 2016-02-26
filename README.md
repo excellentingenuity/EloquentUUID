@@ -14,10 +14,24 @@ Then in you Model instead of extending `Model` extend `EloquentUUID` like so:
 
 namespace App;
 
+use eig\EloquentUUID\EloquentUUID;
+
 class UUIDModel extends EloquentUUID
 {
 
 }
+```
+
+Then in your migrations make sure you set id to string or uuid like this:
+```
+public function up()
+    {
+        Schema::create('lient_models', function (Blueprint $table) {
+            $table->uuid('id');
+            $table->softDeletes();
+            $table->timestamps();
+        });
+    }
 ```
 
 ## Supported PHP Versions
