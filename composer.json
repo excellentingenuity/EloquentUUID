@@ -1,0 +1,44 @@
+{
+  "name": "eig/eloquentuuid",
+  "description": "Easy UUID for Eloquent Models",
+  "license": "MIT",
+  "keywords": ["uuid", "eloquent", "ORM", "laravel"],
+  "type": "library",
+  "homepage": "https://github.com/excellentingenuity/EloquentUUID",
+  "authors": [
+    {
+      "name": "James Johnson",
+      "email": "james.johnson@excellentingenuity.com",
+      "role": "Developer/Maintainer"
+    }
+  ],
+  "support": {
+    "docs": "https://github.com/excellentingenuity/EloquentUUID",
+    "issues": "https://github.com/excellentingenuity/EloquentUUID/issues",
+    "wiki": "https://github.com/excellentingenuity/EloquentUUID/wiki"
+  },
+  "require": {
+    "php": ">=5.6",
+    "ramsey/uuid": "^3.2",
+    "moontoast/math": "^1.1",
+    "ircmaxell/random-lib": "^1.1",
+    "illuminate/database": "^5.2"
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.2",
+    "mockery/mockery": "^0.9.4",
+    "satooshi/php-coveralls": "dev-master",
+    "apostle/phpunit-validation": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "eig\\EloquentUUID\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "eig\\EloquentUUID\\Tests\\": "./tests"
+    }
+  }
+}
