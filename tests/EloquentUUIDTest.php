@@ -18,7 +18,8 @@ class EloquentUUIDTest extends TestCase
     /**
      * testHasUUID
      */
-    public function testHasUUID() {
+    public function testHasUUID()
+    {
         $model = new UUIDModel();
         $this->assertUuid($model->id);
     }

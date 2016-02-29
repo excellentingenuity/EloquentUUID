@@ -40,7 +40,8 @@ abstract class EloquentUUID extends Model
      * generateUUID
      * @return \Ramsey\Uuid\UuidInterface
      */
-    protected function generateUUID() {
+    protected function generateUUID()
+    {
         $uuidFactory = new UuidFactory();
         $uuidFactory->setRandomGenerator(new RandomLibAdapter());
         RUUID::setFactory($uuidFactory);
