@@ -1,6 +1,7 @@
 # EloquentUUID
 [![Build Status](https://travis-ci.org/excellentingenuity/EloquentUUID.svg?branch=master)](https://travis-ci.org/excellentingenuity/EloquentUUID)
 [![Coverage Status](https://coveralls.io/repos/github/excellentingenuity/EloquentUUID/badge.svg?branch=master)](https://coveralls.io/github/excellentingenuity/EloquentUUID?branch=master)
+[![StyleCI](https://styleci.io/repos/52276916/shield)](https://styleci.io/repos/52276916)
 
 A Package for easily adding UUID's to Eloquent Models
 
