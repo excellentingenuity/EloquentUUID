@@ -2,7 +2,6 @@
 
 namespace eig\EloquentUUID;
 
-
 /**
  * Class UUIDModel
  * @package eig\EloquentUUID
@@ -12,5 +11,4 @@ namespace eig\EloquentUUID;
  */
 class UUIDModel extends EloquentUUID
 {
-
 }
