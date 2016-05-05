@@ -6,17 +6,16 @@ use Apostle\PHPUnit\TestCase;
 use eig\EloquentUUID\UUIDModel;
 
 /**
- * Class EloquentUUIDTest
- * @package eig\EloquentUUID\Tests
+ * Class EloquentUUIDTest.
+ *
  * @license MIT
  * @author James Johnson
  * @author Excellent InGenuity LLC
  */
 class EloquentUUIDTest extends TestCase
 {
-
     /**
-     * testHasUUID
+     * testHasUUID.
      */
     public function testHasUUID()
     {
