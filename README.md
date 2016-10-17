@@ -8,7 +8,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/eig/eloquent-uuid/v/unstable)](https://packagist.org/packages/eig/eloquent-uuid) 
 
 
-A Package for easily adding UUID's to Eloquent Models
+A Package for easily adding UUID's to Eloquent Models supporting Laravel 5.1, 5.2, and 5.3
 
 ## Usage
 To use UUID in an Eloquent Model install the package with:
@@ -35,7 +35,7 @@ Then in your migrations make sure you set id to string or uuid like this:
 ```
 public function up()
     {
-        Schema::create('lient_models', function (Blueprint $table) {
+        Schema::create('client_models', function (Blueprint $table) {
             $table->uuid('id');
             $table->softDeletes();
             $table->timestamps();
@@ -44,7 +44,7 @@ public function up()
 ```
 
 ## Supported PHP Versions
-- 5.6
+- 5.6+
+- 7.0
 - hhvm
 
-PHP 7 support planned for the future in conjunction with a dependency's support for PHP 7.
