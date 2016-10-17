@@ -39,6 +39,4 @@ class EloquentUUIDTest extends TestCase
     {
         return new IsUuid($strict, $versions);
     }
-
-
 }
