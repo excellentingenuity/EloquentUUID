@@ -35,7 +35,7 @@ Then in your migrations make sure you set id to string or uuid like this:
 ```
 public function up()
     {
-        Schema::create('lient_models', function (Blueprint $table) {
+        Schema::create('client_models', function (Blueprint $table) {
             $table->uuid('id');
             $table->softDeletes();
             $table->timestamps();
