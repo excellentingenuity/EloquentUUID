@@ -3,6 +3,7 @@
 namespace eig\EloquentUUID\Tests\Fixtures;
 
 use eig\EloquentUUID\EloquentUUID;
+
 /**
  * Class UUIDModel
  * @package eig\EloquentUUID

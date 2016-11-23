@@ -14,5 +14,4 @@ abstract class UUIDUser extends Authenticatable
      * @var bool
      */
     public $incrementing = false;
-
 }
