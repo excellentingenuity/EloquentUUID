@@ -15,7 +15,6 @@ use Illuminate\Database\Eloquent\Model;
  */
 abstract class EloquentUUID extends Model
 {
-
     use UUID;
 
     /**
@@ -24,6 +23,4 @@ abstract class EloquentUUID extends Model
      * @var bool
      */
     public $incrementing = false;
-
-
 }
