@@ -1,29 +1,18 @@
 <?php
 
-
 namespace eig\EloquentUUID;
 
 use eig\EloquentUUID\Traits\UUID;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-/**
- * Class EloquentUUID
- * @package App
- * @license MIT
- * @author James Johnson
- * @author Excellent InGenuity LLC
- */
-abstract class EloquentUUID extends Model
+abstract class UUIDUser extends Authenticatable
 {
-
     use UUID;
-
     /**
      * Indicates if the IDs are auto-incrementing.
      *
      * @var bool
      */
     public $incrementing = false;
-
 
 }

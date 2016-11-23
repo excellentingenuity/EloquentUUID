@@ -4,18 +4,18 @@ namespace eig\EloquentUUID\Tests;
 
 use eig\UUID\Traits\IsUUID;
 use PHPUnit\Framework\TestCase;
-use eig\EloquentUUID\Tests\Fixtures\UUIDModel;
+use eig\EloquentUUID\Tests\Fixtures\UUIDUserModel;
+
 
 /**
- * Class EloquentUUIDTest
+ * Class UUIDUserTest
  * @package eig\EloquentUUID\Tests
  * @license MIT
  * @author James Johnson
  * @author Excellent InGenuity LLC
  */
-class EloquentUUIDTest extends TestCase
+class UUIDUserTest extends TestCase
 {
-
     use IsUUID;
 
     /**
@@ -25,7 +25,7 @@ class EloquentUUIDTest extends TestCase
      */
     public function testHasUUID()
     {
-        $model = new UUIDModel();
+        $model = new UUIDUserModel();
         $this->assertIsUuid($model->id);
     }
 }

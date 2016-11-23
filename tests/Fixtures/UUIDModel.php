@@ -1,7 +1,8 @@
 <?php
 
-namespace eig\EloquentUUID;
+namespace eig\EloquentUUID\Tests\Fixtures;
 
+use eig\EloquentUUID\EloquentUUID;
 /**
  * Class UUIDModel
  * @package eig\EloquentUUID
