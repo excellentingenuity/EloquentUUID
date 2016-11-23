@@ -43,6 +43,15 @@ public function up()
     }
 ```
 
+## User UUID Model
+For Laravel 5.3, the standard user model that comes with the framework extends `Authenticatble` for the new 
+multi-auth system. To add in UUID's to the user model extend `eig\EloquentUUID\UUIDUser` which will add in the UUID
+to the user while still extending Laravel's `Authenticatable` class. 
+
+## UUID Trait
+As of version 1.1.0 EloquentUUID now has a trait `UUID` that you can use to compose a UUID class. The trait implements 
+a UUID assignment in a `__constructor()` method. 
+
 ## Supported PHP Versions
 - 5.6+
 - 7.0
