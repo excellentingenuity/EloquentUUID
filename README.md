@@ -16,7 +16,7 @@ To use UUID in an Eloquent Model install the package with:
 composer require eig/eloquent-uuid
 ```
 
-Then in you Model instead of extending `Model` extend `EloquentUUID` like so:
+Then in your Model instead of extending `Model` extend `EloquentUUID` like so:
 
 ```
 <?php
@@ -46,11 +46,13 @@ public function up()
 ## User UUID Model
 For Laravel 5.3, the standard user model that comes with the framework extends `Authenticatble` for the new 
 multi-auth system. To add in UUID's to the user model extend `eig\EloquentUUID\UUIDUser` which will add in the UUID
-to the user while still extending Laravel's `Authenticatable` class. 
+to the user while still extending Laravel's `Authenticatable` class. The migration schema changes for extending 
+`EloquentUUID` are the same for extending from `UUIDUser`.
 
 ## UUID Trait
-As of version 1.1.0 EloquentUUID now has a trait `UUID` that you can use to compose a UUID class. The trait implements 
-a UUID assignment in a `__constructor()` method. 
+As of version 1.1.0, EloquentUUID now has a trait named `UUID` in the namespace `eig\EloquentUUID\Traits\UUID`,
+ that you can use to compose a UUID class. The trait implements a UUID assignment in a `__constructor()` method. 
+ The migration schema changes for extending `EloquentUUID` are the same for using the `UUID` trait.
 
 ## Supported PHP Versions
 - 5.6+
