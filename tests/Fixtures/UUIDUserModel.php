@@ -11,5 +11,4 @@ use eig\EloquentUUID\UUIDUser;
  */
 class UUIDUserModel extends UUIDUser
 {
-
 }
