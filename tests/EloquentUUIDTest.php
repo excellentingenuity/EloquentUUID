@@ -15,7 +15,6 @@ use eig\EloquentUUID\Tests\Fixtures\UUIDModel;
  */
 class EloquentUUIDTest extends TestCase
 {
-
     use IsUUID;
 
     /**
