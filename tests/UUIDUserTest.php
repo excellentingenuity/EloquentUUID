@@ -3,7 +3,7 @@
 namespace eig\EloquentUUID\Tests;
 
 use eig\UUID\Traits\IsUUID;
-use PHPUnit\Framework\TestCase;
+use PHPUnit_Framework_TestCase as TestCase;
 use eig\EloquentUUID\Tests\Fixtures\UUIDUserModel;
 
 /**
