@@ -44,7 +44,7 @@ public function up()
 ```
 
 ## User UUID Model
-For Laravel 5.3, the standard user model that comes with the framework extends `Authenticatble` for the new 
+For Laravel 5.3+, the standard user model that comes with the framework extends `Authenticatble` for the new 
 multi-auth system. To add in UUID's to the user model extend `eig\EloquentUUID\UUIDUser` which will add in the UUID
 to the user while still extending Laravel's `Authenticatable` class. The migration schema changes for extending 
 `EloquentUUID` are the same for extending from `UUIDUser`.
@@ -55,7 +55,7 @@ As of version 1.1.0, EloquentUUID now has a trait named `UUID` in the namespace 
  The migration schema changes for extending `EloquentUUID` are the same for using the `UUID` trait.
 
 ## Supported PHP Versions
-- 5.6+
-- 7.0
-- hhvm
+- 5.6+ Use the [1.x branch releases](https://github.com/excellentingenuity/EloquentUUID/releases/tag/1.1.1)
+- 7.0 Use the [master branch releases of 2.x+](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.0.0)
+- 7.1 Use the [master branch releases of 2.x+](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.0.0)
 
