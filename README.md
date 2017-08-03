@@ -56,6 +56,4 @@ As of version 1.1.0, EloquentUUID now has a trait named `UUID` in the namespace 
 
 ## Supported PHP Versions
 - 5.6+
-- 7.0
-- hhvm
 
