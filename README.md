@@ -8,7 +8,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/eig/eloquent-uuid/v/unstable)](https://packagist.org/packages/eig/eloquent-uuid) 
 
 
-A Package for easily adding UUID's to Eloquent Models supporting Laravel 5.1, 5.2, and 5.3
+A Package for easily adding UUID's to Eloquent Models supporting Laravel 5.5+
 
 ## Usage
 To use UUID in an Eloquent Model install the package with:
@@ -57,5 +57,5 @@ As of version 1.1.0, EloquentUUID now has a trait named `UUID` in the namespace 
 ## Supported PHP Versions
 - 5.6+ Use the [1.x branch releases](https://github.com/excellentingenuity/EloquentUUID/releases/tag/1.1.1)
 - 7.0 Use the [master branch releases of 2.x+](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.0.0)
-- 7.1 Use the [master branch releases of 2.x+](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.0.0)
+- 7.1+ Use the [master branch releases of 2.1+](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.1.0)
 

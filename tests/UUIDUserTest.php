@@ -5,7 +5,6 @@ namespace eig\EloquentUUID\Tests;
 use eig\UUID\Traits\IsUUID;
 use PHPUnit\Framework\TestCase;
 use eig\EloquentUUID\Tests\Fixtures\UUIDUserModel;
-
 /**
  * Class UUIDUserTest
  * @package eig\EloquentUUID\Tests

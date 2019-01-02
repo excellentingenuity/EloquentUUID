@@ -7,8 +7,7 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         stopOnFailure="false"
-         syntaxCheck="true">
+         stopOnFailure="false">
     <testsuites>
         <testsuite name="EloquentUUID Test Suite">
             <directory suffix=".php">./tests/</directory>
@@ -17,6 +16,7 @@
     <filter>
         <whitelist>
             <directory suffix=".php">src/</directory>
+            <directory suffix=".php">tests/Fixtures</directory>
         </whitelist>
     </filter>
 </phpunit>
