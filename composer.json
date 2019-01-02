@@ -18,7 +18,7 @@
     "wiki": "https://github.com/excellentingenuity/EloquentUUID/wiki"
   },
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.1",
     "eig/UUID": "^2.1.0"
 
 
