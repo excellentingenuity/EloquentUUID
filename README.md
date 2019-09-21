@@ -57,5 +57,6 @@ As of version 1.1.0, EloquentUUID now has a trait named `UUID` in the namespace 
 ## Supported PHP Versions
 - 5.6+ Use the [1.x branch releases](https://github.com/excellentingenuity/EloquentUUID/releases/tag/1.1.1)
 - 7.0 Use the [master branch releases of 2.x+](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.0.0)
-- 7.1+ Use the [master branch releases of 2.1+](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.1.0)
+- 7.1 & Laravel 5.5 Use the [master branch releases of 2.1](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.1.0)
+- 7.2 & Laravel 6.x+ Use the [master branch releases of 2.2](https://github.com/excellentingenuity/EloquentUUID/releases/tag/2.2.0)
 
