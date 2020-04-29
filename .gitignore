@@ -18,3 +18,4 @@ storage/
 /.idea
 composer.phar
 src/vendor
+*.phpunit.result.cache
