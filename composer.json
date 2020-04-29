@@ -19,15 +19,15 @@
   },
   "require": {
     "php": ">=7.2",
-    "eig/uuid": "^2.1.0"
+    "eig/uuid": "^2.4.0"
 
 
   },
   "require-dev": {
-    "phpunit/phpunit": "~7.0",
+    "phpunit/phpunit": "~8.5",
     "mockery/mockery": "dev-master",
     "php-coveralls/php-coveralls": "^2.1",    
-    "laravel/framework": "6.0.2"
+    "laravel/framework": "7.0.0"
   },
   "autoload": {
     "psr-4": {
